@@ -18,47 +18,30 @@ Este proyecto implementa un sistema de autenticación y autorización usando **S
 
 ---
 
-## 📂 Estructura del Proyecto
-
-┣ 📂 main
-┃ ┣ 📂 java/com.ejemplo.jwt
-┃ ┃ ┣ 📂 controller
-┃ ┃ ┣ 📂 config
-┃ ┃ ┣ 📂 security
-┃ ┃ ┣ 📂 model
-┃ ┃ ┣ 📂 repository
-┃ ┃ ┣ 📂 service
-┃ ┗ 📂 resources
-┃ ┣ application.properties
-┗ pom.xml
-
----
-
 ## 🗄️ Usuarios de ejemplo (base de datos)
 
-| Email           | Clave      | Rol   |
-|----------------|------------|-------|
-| admin@gmail.com | admin123   | ADMIN |
-| user@gmail.com  | user123    | USER  |
+| Email            | Clave     | Rol   |
+|------------------|-----------|--------|
+| admin@gmail.com  | admin123  | ADMIN |
+| user@gmail.com   | user123   | USER  |
 
-> 🔐 Las contraseñas están **encriptadas con BCrypt** en la base de datos.
+🔐 **Las contraseñas están encriptadas con BCrypt en la base de datos.**
 
 ---
 
 ## ✅ Cómo ejecutar el proyecto
 
-1. Clona el repositorio
-   ```bash
-   git clone https://github.com/CristianHuarcaya/login-backend-jwt-spring-security.git
-   cd login-backend-jwt-spring-security
-
+1. Clona el repositorio:
+```bash
+git clone https://github.com/CristianHuarcaya/login-backend-jwt-spring-security.git
+cd login-backend-jwt-spring-security
 ```
-## 👨‍💻 Autor
+---
 
-**Cristian Huarcaya Pumahualcca**  
-Desarrollador Backend en Java  
-[LinkedIn](https://www.linkedin.com/in/christian-huarcaya-pumahualcca) | [GitHub](https://github.com/ChristianHuarcaya)
-
+👨‍💻 Autor
+Cristian Huarcaya Pumahualcca
+Desarrollador Backend en Java
+LinkedIn | GitHub
 
 
 
